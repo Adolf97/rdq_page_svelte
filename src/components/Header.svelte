@@ -1,19 +1,26 @@
 <script>
     import '$lib/styles/Header.css'
     import LogoRdq from '$lib/images/lrdq.png'
+
+    var clicked = false;
+    const handleClick = () => {
+        clicked = !clicked;
+    }
 </script>
 
 <header id="header" class="header_container">
     <div class="logo_container">
         <img src={LogoRdq} alt="Logo RDQ">
     </div>
-    <div class="menu_container">
-        <div id="barsActive" class="menu_bars">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list icon-bars" viewBox="0 0 16 16">
+    <div class="bars-icon_container">
+        <button on:click={handleClick} class="btn-menu">
+            <svg id="menuBars" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list icon-bars" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
-        </div>
-        <ul id="menuList" class="menu_list">
+        </button>
+    </div>
+    <div class={clicked ? 'menu_container-active' : 'menu_container'}>
+        <ul class="menu_list">
             <li class="menu_item"><a class="menu_link" href="#nosotros">Nosotros</a></li>
             <li class="menu_item"><a class="menu_link" href="#productos">Productos</a></li>
             <li class="menu_item"><a class="menu_link" href="#distribuciones">Distribuciones Autorizadas</a></li>
