@@ -1,0 +1,86 @@
+.banner_container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+.banner_container > img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.banner_container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: #505050;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: 500;
+}
+.banner-info_container {
+  position: absolute;
+  width: 85%;
+  height: auto;
+  top: 55%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  z-index: 800;
+}
+.banner-info_container > h2 {
+  font-size: 35px;
+  color: #fff;
+  line-height: 50px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.banner-info_container > h2 > b {
+  font-weight: 500;
+  color: #660d0d;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+.banner-info_container h4 {
+  font-size: 18px;
+  color: #fff;
+  line-height: 35px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.btn_quote {
+  width: 80%;
+  background-color: #660d0d;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  margin: 10px 50%;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transform: translate(-50%, 0);
+}
+.redes-sociales_container {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+.redes-sociales > a {
+  text-decoration: none;
+  margin: 8px auto;
+}
+.icon-redes {
+  color: #fff;
+  width: 35px;
+}
