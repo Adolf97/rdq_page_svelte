@@ -1,0 +1,9 @@
+.footer_container {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
