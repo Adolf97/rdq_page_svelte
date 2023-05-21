@@ -4,7 +4,6 @@
   height: auto;
   background-color: #fff;
   box-shadow: 0px 3px 18px #e0e0e0;
-  transition: top 0.5s ease;
   z-index: 1000;
 
   display: flex;
@@ -62,6 +61,7 @@
   border-bottom: 1px solid #d7d7d7;
   margin-bottom: 25px;
   padding-bottom: 5px;
+  color: #660d0d;
 }
 .item_marca {
   margin-left: 30px;

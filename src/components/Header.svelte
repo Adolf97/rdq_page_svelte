@@ -21,11 +21,11 @@
     </div>
     <div class={clicked ? 'menu_container-active' : 'menu_container'}>
         <ul class="menu_list">
-            <li class="menu_item"><a class="menu_link" href="#nosotros">Nosotros</a></li>
-            <li class="menu_item"><a class="menu_link" href="#productos">Nuestras marcas</a></li>
+            <li class="menu_item">Nuestras marcas</li>
                 <ul class="menu_list">
                     <li class="menu_item item_marca"><a class="menu_link" href="#festo">Festo Electric Automation</a></li>
                     <li class="menu_item item_marca"><a class="menu_link" href="#datalogic">Datalogic</a></li>
+                    <li class="menu_item item_marca"><a class="menu_link" href="#datalogic">Otras</a></li>
                 </ul>
             <li class="menu_item"><a class="menu_link" href="#servicios">Servicios</a></li>
             <li class="menu_item"><a class="menu_link" href="#contacto">Contacto</a></li>
