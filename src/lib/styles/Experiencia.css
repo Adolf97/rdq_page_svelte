@@ -3,15 +3,6 @@
   width: 100vw;
   height: auto;
   padding: 70px 50px 40px 35px;
-}
-.background-rotate {
-  position: absolute;
-  left: -10%;
-  top: 0;
-  width: 120%;
-  height: 100%;
-  z-index: 0;
-  transform: rotate(-3deg);
   background-color: #11112b;
 }
 .experiencia-info_container {
