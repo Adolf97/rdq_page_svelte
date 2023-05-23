@@ -1,0 +1,42 @@
+.marcas_container {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  padding: 70px 50px 40px 35px;
+}
+.marcas-info_container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color: #000;
+  z-index: 100;
+}
+.marcas-info_container > h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.marcas-info_container > h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.marcas-info_container > h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #660d0d;
+}
+.marca-info_container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.img-logo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
