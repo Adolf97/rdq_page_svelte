@@ -2,7 +2,45 @@
   position: relative;
   width: 100vw;
   height: auto;
-  padding: 50px 30px 40px 30px;
-  background-color: #070735;
-  color: #fff;
+  padding: 70px 50px 40px 35px;
+}
+.background-rotate {
+  position: absolute;
+  left: -10%;
+  top: 0;
+  width: 120%;
+  height: 100%;
+  z-index: 0;
+  transform: rotate(-3deg);
+  background-color: #11112b;
+}
+.experiencia-info_container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color: #d9d9d9;
+  z-index: 100;
+}
+.experiencia-info_container > h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.experiencia-info_container > h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.btn-exp,
+.btn-contacto {
+  background-color: transparent;
+  color: #71a8e2;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
