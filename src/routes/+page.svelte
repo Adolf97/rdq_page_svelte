@@ -3,6 +3,7 @@
     import Banner from "$components/Banner.svelte";
     import Nosotros from "$components/Nosotros.svelte";
     import Experiencia from "$components/Experiencia.svelte";
+    import Marcas from "$components/Marcas.svelte";
     import Footer from "$components/Footer.svelte";
 </script>
 
@@ -11,4 +12,5 @@
 <Banner />
 <Nosotros />
 <Experiencia />
+<Marcas />
 <!-- <Footer /> -->
