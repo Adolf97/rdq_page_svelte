@@ -1,8 +1,7 @@
 .banner_container {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: red;
 }
 .banner_container > img {
   width: 100%;

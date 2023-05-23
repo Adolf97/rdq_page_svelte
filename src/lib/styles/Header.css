@@ -40,7 +40,7 @@
   display: fixed;
   position: absolute;
   top: 7.5vh;
-  width: 100%;
+  width: 100vw;
   height: 95vh;
   padding: 30px 40px;
   background-color: #fff;
