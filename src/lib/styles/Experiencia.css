@@ -26,8 +26,8 @@
   line-height: 27px;
   margin-bottom: 30px;
 }
-.btn-exp,
-.btn-contacto {
+.btn-azul {
+  display: block;
   background-color: transparent;
   color: #71a8e2;
   border: none;

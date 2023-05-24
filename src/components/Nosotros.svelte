@@ -14,7 +14,7 @@
             <li class="services_item">Pruebas con equipos de demostración</li>
             <li class="services_item">Seguimiento post-venta</li>
         </ul>
-        <button class="btn-servicios">Consultar servicios ></button>
+        <a href="#Servicios" class="btn-vino">Consultar servicios ></a>
         <img class="icon_services" src={IconServices} alt="Services icon">
     </div>
 </div>

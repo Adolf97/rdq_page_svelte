@@ -33,7 +33,8 @@
   margin: 10px 0;
   line-height: 30px;
 }
-.btn-servicios {
+.btn-vino {
+  display: block;
   background-color: transparent;
   color: #780000;
   border: none;

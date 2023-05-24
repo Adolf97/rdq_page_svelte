@@ -8,7 +8,7 @@
     <div class="banner-info_container">
         <h2>Soluciones para <b>todas</b> tus necesidades</h2>
         <h4>Contamos con equipos de trazabilidad, de marcado láser, sistemas de visión y de automatización eléctrica, que brindan eficiencia a tus procesos.</h4>
-        <button class="btn_quote">Solicita tu cotización</button>
+        <button class="btn_quote"><a href="/Cotizacion">Solicita tu cotización</a></button>
         <div class="redes-sociales_container">
             <a href="https://www.facebook.com/profile.php?id=100067196409003" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook icon-redes" viewBox="0 0 16 16">

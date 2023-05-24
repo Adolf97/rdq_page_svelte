@@ -25,11 +25,10 @@
                 <ul class="menu_list">
                     <li class="menu_item item_marca"><a class="menu_link" href="#festo">Festo Electric Automation</a></li>
                     <li class="menu_item item_marca"><a class="menu_link" href="#datalogic">Datalogic</a></li>
-                    <li class="menu_item item_marca"><a class="menu_link" href="#datalogic">Otras</a></li>
                 </ul>
             <li class="menu_item"><a class="menu_link" href="#servicios">Servicios</a></li>
             <li class="menu_item"><a class="menu_link" href="#contacto">Contacto</a></li>
-            <li class="menu_item btn_quote"><a class="menu_link" href="#cotizacion">Solicita tu cotización</a></li>
+            <li class="menu_item btn_quote"><a class="menu_link" href="/Cotizacion">Solicita tu cotización</a></li>
         </ul>
     </div>
 </header>
