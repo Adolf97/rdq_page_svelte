@@ -19,24 +19,45 @@
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
-.marcas-info_container > h3 {
+.marcas-info_container > span {
+  display: block;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   margin-bottom: 30px;
 }
-.marcas-info_container > h4 {
-  font-size: 20px;
+.marcas-info_container > h3 {
+  font-size: 18px;
   font-weight: 600;
   color: #660d0d;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .marca-info_container {
   width: 100%;
   height: auto;
   padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0 1px 10px #cbcbcb;
 }
-.img-logo {
+.marca-info_container > ul > li {
+  list-style: disc;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+.img-logoData {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.img-logoFesto {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
