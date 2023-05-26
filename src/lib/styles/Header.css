@@ -41,7 +41,7 @@
   position: absolute;
   top: 7.5vh;
   width: 100vw;
-  height: 95vh;
+  height: auto;
   padding: 30px 40px;
   background-color: #fff;
 }

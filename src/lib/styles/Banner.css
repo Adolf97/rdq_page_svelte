@@ -2,6 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 .banner_container > img {
   width: 100%;
