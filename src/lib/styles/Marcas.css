@@ -62,3 +62,9 @@
   object-fit: cover;
   margin-bottom: 15px;
 }
+.b-datalogic {
+  color: #1a21a1;
+}
+.b-festo {
+  color: #2ca0ff;
+}

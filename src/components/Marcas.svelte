@@ -7,7 +7,7 @@
 <div class="marcas_container">
     <div class="marcas-info_container">
         <h2>Equipos y productos de múltiples marcas</h2>
-        <span>En RDQ somos distribuidores autorizados de las marcas <b>Datalogic</b> y <b>Festo Electric Automation</b>, sin embargo hemos trabajado con distintas marcas del sector, como Siemens, Cognex, Balluff, Phoenix Contact, etc.</span>
+        <span>En RDQ somos distribuidores autorizados de las marcas <b class="b-datalogic">Datalogic</b> y <b class="b-festo">Festo Electric Automation</b>, sin embargo hemos trabajado con distintas marcas del sector, como Siemens, Cognex, Balluff, Phoenix Contact, etc.</span>
         <h3>Distribuciones Autorizadas</h3>
         <div class="marca-info_container">
             <img class="img-logoData" src={LogoDatalogic} alt="Logo RDQ">
