@@ -1,5 +1,7 @@
 .cotizacion_container {
-  width: 100%;
+  position: relative;
+  width: 100vw;
   height: auto;
-  background-color: yellow;
+  margin-top: 8vh;
+  overflow: hidden;
 }
