@@ -10,7 +10,9 @@
 
 <header id="header" class="header_container">
     <div class="logo_container">
-        <img src={LogoRdq} alt="Logo RDQ">
+        <a href="/">
+            <img src={LogoRdq} alt="Logo RDQ">
+        </a>
     </div>
     <div class="bars-icon_container">
         <button on:click={handleClick} class="btn-menu">
@@ -21,7 +23,7 @@
     </div>
     <div class={clicked ? 'menu_container-active' : 'menu_container'}>
         <ul class="menu_list">
-            <li class="menu_item"><a class="menu_link" href="#home">Home</a></li>
+            <li class="menu_item"><a class="menu_link" href="/">Home</a></li>
             <li class="menu_item">Nuestras marcas</li>
                 <ul class="menu_list">
                     <li class="menu_item item_marca"><a class="menu_link" href="#festo">Festo Electric Automation</a></li>
