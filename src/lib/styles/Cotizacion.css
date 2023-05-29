@@ -1,7 +1,56 @@
 .cotizacion_container {
   position: relative;
   width: 100vw;
-  height: auto;
+  min-height: 90vh;
   margin-top: 8vh;
   overflow: hidden;
+}
+.cotizacion_container > h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 30px 0;
+  color: #660d0d;
+}
+.cotizacion_container > form {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.cotizacion_container > form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+textarea {
+  resize: none;
+}
+.cotizacion_container > form > div > label {
+  color: #660d0d;
+  font-size: 18px;
+  font-weight: 500;
+}
+.cotizacion_form_box {
+  padding: 10px 10px;
+  border: 1px solid #b8b8b8;
+  border-radius: 3px;
+}
+.cotizacion_form_box:focus {
+  box-shadow: 0 0 10px #660d0d;
+}
+.btn-form-submit {
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 60px;
+  min-width: 35%;
+  height: auto;
+  padding: 10px 10px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #660d0d;
+  border: none;
 }
