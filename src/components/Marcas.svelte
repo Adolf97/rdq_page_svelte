@@ -31,5 +31,5 @@
             <a href="#Productos/Festo" class="btn-vino">Ver todos los productos ></a>
         </div>
     </div>
-    <button class="btn_quote">Solicita tu cotización</button>
+    <button class="btn_quote"><a href="/Cotizacion">Solicita tu cotización</a></button>
 </div>
